@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#logo {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+    height: 100%;
+}
+.hero {
+    flex-basis: min(460px);
+}
